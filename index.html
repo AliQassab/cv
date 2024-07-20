@@ -1,336 +1,191 @@
 <!DOCTYPE html>
-<html lang="ar">
-<head>
-    <title>Kawter Hassan Hamed</title> <meta name="author" content="Kawter Hassan">
-    <meta name="description" content="سيرتي الداتيه   ">
- <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content ="25"/>
-    <style>
-        body {
-            font-family: 'Cairo', sans-serif;
-            margin: 0;
-            padding: 0;
-     background-color:#ffd5f443;
-            text-align: center;
-            font-size: 20px;
-            color: #333;
-            margin-top: 50px;
-        }
-        
-        header  {
-        font-style: italic;
-            font-size: 44px;
-            margin: 20px 0;
-            color:#ffffff;
-            text-align: center;
-                     background-image:url('tt.jpg');
-    background-attachment: fixed;
-    background_repeat:no-repeat; 
-    background-position: right bottom;
-        }
-        
-        h3 {
-            font-size: 24px;
-            color:#ffffff;
-        }
-        
-        img {
-            margin: 20px 0;
-            border-radius: 0px;
-            
-        }
-        
-        nav {
-            background-color: #1c7022;
-            color: #fff;
-            padding: 10px 0;
-        }
-        
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-        
-        nav ul li {
-            display: inline;
-            margin: 0 10px;
-        }
-        
-        nav a {
-            color: white;
-            text-decoration: none;
-        }
-        
-        nav a:hover {
-            text-decoration: underline;
-        }
-        
-        table {
-            width: 80%;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
-            border-radius: 10px;
-        }
-        
-        thead {
-            background-color:#1c7022 ;
-            color: #fff;
-        }
-        
-        th, td {
-            padding: 10px;
-            border: 1px solid #ddd;
-            text-align: left;
-        }
-        
-        th {
-            font-size: 20px;
-        }
-        
-        td {
-            font-size: 18px;
-        }
-        
-        hr {
-            border: 1px solid #ddd;
-            margin: 20px 0;
-        }
-        
-        ul, ol {
-            list-style: none;
-            padding: 0;
-            text-align: left;
-            margin: 0 auto;
-            width: 80%;
-        }
-        
-        ul li, ol li {
-            font-size: 18px;
-            color: #555;
-            margin: 10px 0;
-        }
-        
-        .container {
-       
-    background-color:#647bab36;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            padding: 30px;
-            max-width: 800px;
-            margin: 20px auto;
-            text-align: center;
-        }
-        
-        .button {
-            background-color:#1c7022;
-            border: none;
-            color: white;
-            padding: 15px 30px;
-            text-align: center;
-            font-size: 20px;
-            cursor: pointer;
-            border-radius: 12px;
-            transition: background-color 0.3s ease;
-        }
-        
-        .button:hover {
-            background-color: #2a9d8f;
-        }
-        
-        form div {
-            margin-bottom: 15px;
-            text-align: left;
-        }
-        
-        form label {
-            font-size: 18px;
-            color: #333;
-            display: block;
-            margin-bottom: 5px;
-        }
-        
-        form input, form textarea {
-            width: 100%;
-            padding: 10px;
-            font-size: 16px;
-            border: 1px solid #333;
-            border-radius: 5px;
-            background-color: #f0f0f0;
-        }
-        
-        form button {
-            padding: 10px 20px;
-            font-size: 18px;
-            color: #fff;
-            background-color: #264653;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        
-        form button:hover {
-            background-color: #2a9d8f;
-        }
-        
-        .menu-wrapper {
-            background-color:#ffffff;
-            padding: 20px 0;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-        }
-        
-        .menu-wrapper .mob-menu {
-            display: none;
-            font-size: 30px;
-            padding-top: 15px;
-            padding-bottom: 15px;
-            color: #fff;
-        }
-        
-        .menu-wrapper ul {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            text-align: center;
-        }
-        
-        .menu-wrapper ul li {
-            display: inline;
-            margin: 0 10px;
-        }
-        
-        .menu-wrapper ul li a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 16px;
-         text-transform: uppercase;
-        }
-        
-        .menu-wrapper ul li a:hover {
-            color: #2a9d8f;
-        }
-        
-        .main-menu a:hover, .main-menu .current_page_item a {
-            color: #fff !important;
-        }
-    </style>
-</head>
-<body>
-    <div class="menu-wrapper">
-        <nav id="header-main-menu">
-            <div class="mob-menu">MENU</div>
-            <ul class="main-menu sm sm-clean">
-                <li><a href="#Personal">PI</a></li>
-                <li><a href="#Education">Education</a></li>
-                <li><a href="#Work Experience">WE</a></li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#Hobbies">Hobbies</a></li>
-                <li><a href="#Languages">Languages</a></li>
-                <li><a href="#Links">Links</a></li>
-            </ul>
-        </nav>
-    </div>
-    <br><br><br><br>
-    <header >
-    <h1 id="Personal">Name: Kawter Hassan Hamed</h1>
-    <h3>Specialization: Computer Science</h3>
-    <h3>"CV"</h3>
-    <p>Master student at the Academy branch Sabha for top studies and professor at the Technical Institute and its researcher and programmer for some programming languages.</p></header>
-    <hr>
-    <div class="container">
-        <div class="header">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Data</th>
-                        <th>Information</th>
-                        <th><img src="1236.jpg" alt="صورة شخصيه"width="30%"height="20%"></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Name</td>
-                        <td colspan="2">Kawter Hassan Hamed</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>Telephone Number</td>
-                        <td colspan="2">218-092454469</td>
-                    </tr>
-                    <tr>
-                        <td>Address</td>
-                        <td colspan="2">Sabha</td>
-                    </tr>
-                    <tr>
-                        <td>Email</td>
-                        <td colspan="2">kawt.abulaasad@fit.sebhau.edu.ly</td>
-                    </tr>
-                    <tr>
-                        <td>Nationality</td>
-                        <td colspan="2">Libyan</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-    <hr>
-    <div class="container">
-        <div class="header">
-            <ul id="Education">
-                <button class="button" onclick="this.style.display='none'">Education</button>
-                <li>Preparatory certificate from Khawla Bint Azur School</li>
-                <li>Secondary School Certificate 2012</li>
-                <li>University Certificate from College of Information Technology General graduation 2021</li>
-            </ul>
-        </div>
-    </div>
-    <hr>
-    <div class="container">
-    <div class="header">
-    <ul id="Work Experience"> <button class="button" onclick="this.style.display='none'">Work Experience</button>
- <li>Demonstrator at Faculty of Information Technology</li>
- <li>Programmer for some programming languages</li>
-            </ul>
-        </div>
-    </div>
-    <hr>
-    <div class="container">
-        <div class="header">
-          <ul id="Skills">
-        <button class="button" onclick="this.style.display='none'">Skills</button>
-<li>Write on Microsoft programs for scientific papers</li>
- <li>Programming in languages: C++, Java, HTML, CSS, PHP, Visual Basic</li>
-            </ul>
-        </div>
-    </div>
-    <hr>
-    <div class="container">
-        <div class="header">
-            <ul id="Hobbies">
-  <button class="button" onclick="this.style.display='none'">Hobbies</button>
-              <li>Photography </li> <li>Design of electronic invitations </li> <li>Reading </li> <li>Watch tv</li>
-           <li>The cooking</li> </ul></div></div> <hr>
-            <div class="container" > 
-         <div class="header"> 
-         <ol id="Languages">
-     <button class="button" onclick="this.style.display='none'">Languages</button> <li>English </li> <li>Arabic </li> </ol> </div></div> <hr> 
-     <div class="container" > 
-         <div class="header">
-             <ul id="Links">
-          <button  class="button" onclick="this.style.display='none'">Links</button> <br>
-          
-          <a href="kawt.abulaasad@fit.sebhau.edu.ly"   >
-              kawt.abulaasad@fit.sebhau.edu.ly
-          </a> <br>
-          <a href="www.youtube.com/@kawterhassan-kr9nn">www.youtube.com/@kawterhassan-kr9nn</a> <br><a href="092454469">092454469</a></div></div></div> <hr> <div class="container" > <div class="header"> <button class="button" onclick="this.style.display='none'">What do you think of the CV page</button> <form action="#" method="get"> <label for="name">name</label> 
- <input type="text" id="name" name="name" required> 
- <label for="email">email</label> <input type="email" id="email" name="email" required> <label for="message">message</label> <textarea id="message" name="message" rows="4" required></textarea> <button type="submit">submit</button> </form> </div></div></div> <hr> <br>
-  </body> </html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">CV</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section-skill">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="introduction">
+        <div class="overlay"></div>
+        <div class="personal">
+          <h1>Kawter Hassan Hamed</h1>
+          <h3>Specialization: Computer Science</h3>
 
+          <p class="info">
+            Master student at the Academy branch Sabha for top studies and
+            professor at the Technical Institute and its researcher and
+            programmer for some programming languages.
+          </p>
+        </div>
+      </section>
+      <section id="section-skill">
+        <div class="container">
+          <h2 class="heading-skills">technical skills</h2>
 
+          <div class="row">
+            <div class="skill-card">
+              <img src="./img/html.png" alt="" class="brands" />
+              <h3>html/css</h3>
+              <i></i>
+              <p>
+                A good practices, clean code, and modern design techniques.
+                Create modular designs and clean websites.
+              </p>
+            </div>
+            <div class="skill-card">
+              <i class="fa-regular fa-lightbulb"></i>
+
+              <h3>JavaScript</h3>
+              <i></i>
+              <p>
+                Good grasp of the fundamentals of JavaScript, OOP, and the use
+                of ES6 syntax and functionality and logic.
+              </p>
+            </div>
+            <div class="skill-card">
+              <img src="./img/php1.jpeg" alt="" class="brands" />
+              <h3>Php</h3>
+              <i></i>
+              <p>
+                Fundamental in PHP, skilled in the use of functions, global
+                variables, and object-oriented design patterns. Looking to dive
+                deeper into PHP in the future.
+              </p>
+            </div>
+            <div class="skill-card">
+              <img class="brands" src="./img/c++.png" alt="" />
+              <h3>C++</h3>
+              <i></i>
+              <p>
+                A C++ developer with fundamental skills in C++ and a passion for
+                learning and growth. I'm eager to expand my knowledge and skills
+                in this field.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education">
+        <div class="container education">
+          <div class="education-container">
+            <h2>Education</h2>
+            <div class="education-info">
+              <ul>
+                <li>
+                  <strong>Preparatory Certificate:</strong>
+                  <span>Khawla Bint Azur School</span>
+                </li>
+                <li>
+                  <strong>Secondary School Certificate:</strong>
+                  <span>2012</span>
+                </li>
+                <li>
+                  <strong>University Certificate:</strong>
+                  <span>College of Information Technology</span>
+                  <em>General Graduation 2021</em>
+                </li>
+              </ul>
+              <img src="img/uni.webp" alt="University-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about-me">
+        <div class="container">
+          <div class="about-container">
+            <h2>About Me</h2>
+            <p>
+              I am a computer science student with a keen interest in becoming a
+              software engineer. Beyond my academic pursuits, I enjoy a variety
+              of hobbies that enrich my personal and professional life. I have a
+              passion for photography, capturing moments that tell compelling
+              stories. Additionally, I love designing electronic invitations,
+              combining creativity with technology to produce unique digital
+              art. Reading is another pastime I cherish, as it broadens my
+              horizons and enhances my knowledge. Lastly, cooking is an
+              enjoyable and relaxing activity for me, allowing me to experiment
+              with flavors and create delicious meals.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <a
+          href="mailto:kawt.abulaasad@fit.sebhau.edu.ly?subject=Your%20Subject&amp;body=Your%20Message"
+          class="btn btn-primary"
+        >
+          email me
+        </a>
+      </section>
+      <hr />
+    </main>
+    <footer>
+      <p>© <span class="date"></span>Kawter</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
